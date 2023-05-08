@@ -13,6 +13,7 @@
 		DDD8D2562A0985D700A5E82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8D2542A0985D700A5E82B /* Main.storyboard */; };
 		DDD8D2582A0985DB00A5E82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD8D2572A0985DB00A5E82B /* Assets.xcassets */; };
 		DDD8D25B2A0985DB00A5E82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8D2592A0985DB00A5E82B /* LaunchScreen.storyboard */; };
+		DDD8D2632A09864900A5E82B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D2622A09864900A5E82B /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DDD8D2572A0985DB00A5E82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD8D25A2A0985DB00A5E82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD8D25C2A0985DB00A5E82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD8D2622A09864900A5E82B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DDD8D24E2A0985D700A5E82B /* AppDelegate.swift */,
 				DDD8D2502A0985D700A5E82B /* SceneDelegate.swift */,
 				DDD8D2522A0985D700A5E82B /* ViewController.swift */,
+				DDD8D2622A09864900A5E82B /* DataModel.swift */,
 				DDD8D2542A0985D700A5E82B /* Main.storyboard */,
 				DDD8D2572A0985DB00A5E82B /* Assets.xcassets */,
 				DDD8D2592A0985DB00A5E82B /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDD8D2532A0985D700A5E82B /* ViewController.swift in Sources */,
+				DDD8D2632A09864900A5E82B /* DataModel.swift in Sources */,
 				DDD8D24F2A0985D700A5E82B /* AppDelegate.swift in Sources */,
 				DDD8D2512A0985D700A5E82B /* SceneDelegate.swift in Sources */,
 			);
