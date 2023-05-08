@@ -7,16 +7,17 @@
 
 import Foundation
 
-struct DataModel {
+class DataModel {
     
     // MARK: - Public Properties
     
-    var volume = 0
+    private(set) var volume = 0
     
     // MARK: - Public Methods
     
     func setVolume(to value: Int) {
-        
+        // return 0, value or 100
+        volume = min(max(value, 0), 100)
     }
     
 }
