@@ -14,7 +14,7 @@
 		DDD8D2582A0985DB00A5E82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD8D2572A0985DB00A5E82B /* Assets.xcassets */; };
 		DDD8D25B2A0985DB00A5E82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD8D2592A0985DB00A5E82B /* LaunchScreen.storyboard */; };
 		DDD8D2632A09864900A5E82B /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D2622A09864900A5E82B /* DataModel.swift */; };
-		DDD8D26B2A09896700A5E82B /* UnitTestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D26A2A09896700A5E82B /* UnitTestingAppTests.swift */; };
+		DDD8D26B2A09896700A5E82B /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D26A2A09896700A5E82B /* DataModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		DDD8D25C2A0985DB00A5E82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD8D2622A09864900A5E82B /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		DDD8D2682A09896700A5E82B /* UnitTestingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDD8D26A2A09896700A5E82B /* UnitTestingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingAppTests.swift; sourceTree = "<group>"; };
+		DDD8D26A2A09896700A5E82B /* DataModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		DDD8D2692A09896700A5E82B /* UnitTestingAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				DDD8D26A2A09896700A5E82B /* UnitTestingAppTests.swift */,
+				DDD8D26A2A09896700A5E82B /* DataModelTests.swift */,
 			);
 			path = UnitTestingAppTests;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD8D26B2A09896700A5E82B /* UnitTestingAppTests.swift in Sources */,
+				DDD8D26B2A09896700A5E82B /* DataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
