@@ -26,15 +26,24 @@ final class DataModelTests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    func testLowestVolumeShouldBeZero() {
+        // 1.given - condition
+        sut.setVolume(to: -1)
         
+        // 2.when - action to test
+        let volume = sut.volume
+        // 3.then - result of the test
+        XCTAssert(volume == 0, "Lowest value should be equal to zero")
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testHighestVolumeShouldBe100() {
+        // 1.given - condition
+        sut.setVolume(to: 101)
+        
+        // 2.when - action to test
+        let volume = sut.volume
+        // 3.then - result of the test
+        XCTAssert(volume == 100, "Highest value should be equal to 100")
     }
 
 }
