@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD527D082A0A461500205351 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD527D072A0A461500205351 /* PersonTests.swift */; };
+		DD527D0A2A0A472300205351 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD527D092A0A472200205351 /* Person.swift */; };
 		DDD8D24F2A0985D700A5E82B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D24E2A0985D700A5E82B /* AppDelegate.swift */; };
 		DDD8D2512A0985D700A5E82B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D2502A0985D700A5E82B /* SceneDelegate.swift */; };
 		DDD8D2532A0985D700A5E82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8D2522A0985D700A5E82B /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD527D072A0A461500205351 /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		DD527D092A0A472200205351 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		DDD8D24B2A0985D700A5E82B /* UnitTestingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD8D24E2A0985D700A5E82B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD8D2502A0985D700A5E82B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 				DDD8D2502A0985D700A5E82B /* SceneDelegate.swift */,
 				DDD8D2522A0985D700A5E82B /* ViewController.swift */,
 				DDD8D2622A09864900A5E82B /* DataModel.swift */,
+				DD527D092A0A472200205351 /* Person.swift */,
 				DDD8D2542A0985D700A5E82B /* Main.storyboard */,
 				DDD8D2572A0985DB00A5E82B /* Assets.xcassets */,
 				DDD8D2592A0985DB00A5E82B /* LaunchScreen.storyboard */,
@@ -96,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DDD8D26A2A09896700A5E82B /* DataModelTests.swift */,
+				DD527D072A0A461500205351 /* PersonTests.swift */,
 			);
 			path = UnitTestingAppTests;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD527D0A2A0A472300205351 /* Person.swift in Sources */,
 				DDD8D2532A0985D700A5E82B /* ViewController.swift in Sources */,
 				DDD8D2632A09864900A5E82B /* DataModel.swift in Sources */,
 				DDD8D24F2A0985D700A5E82B /* AppDelegate.swift in Sources */,
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD527D082A0A461500205351 /* PersonTests.swift in Sources */,
 				DDD8D26B2A09896700A5E82B /* DataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

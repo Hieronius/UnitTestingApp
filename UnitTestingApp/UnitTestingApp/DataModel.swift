@@ -20,4 +20,8 @@ class DataModel {
         volume = min(max(value, 0), 100)
     }
     
+    func greaterThanValue(x: Int, y: Int) -> Bool {
+        x > y
+    }
+    
 }
